@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* start of index.html : landing page */
+
+.index {
+  /* Location of the image on your local machine */
+  background: url(./img/sky.jpg) no-repeat center center fixed;
+  /* this is what makes the background image rescale based on the container's size */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* Set a background color that will be displayed while the background image is loading */
+  background-color: #464646;
+  }
+
+.header {
+  display: grid;
+  justify-content: center;
+  margin-top: 5%;
+  animation: fadeIn;
+  animation-duration: 8s;
+}
+
+h1 {
+  display: grid;
+  font-family: "comforter";
+  font-size: 7vh;
+  color: rgb(33, 0, 39);
+  background-color: rgba(184, 169, 187, 0.5);
+  border-bottom: solid 3px black;
+  border-right: solid 3px black;
+  text-align: center;
+  border-radius: 20px;
+  padding: 0;
+  margin: 0 20% 0 20%;
+}
+
+.text {
+  font-style: arial;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 1% 20% 0 20%;
+  display: flex;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding: 1% 1% 1% 1%;
+}
+
+.start {
+  display: flex;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+a button {
+  cursor: pointer;
+  font-size: 3vh;
+  font-family: "times new roman";
+  padding: 10%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 40%;
+  animation: fadeIn 8s;
+}
+
+button:hover {
+  background-color: rgba(184, 169, 187, 0.5);
+  color: rgba(33, 0, 39);
+}
+
+/* start of the home.html */
+/* background image */
+.home {
+  background-image: url(./img/black.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* Set a background color that will be displayed while the background image is loading */
+  background-color: #464646;
+}
+
+.container2 {
+  display: grid;
+  margin-top: 0;
+}
+
+.climber {
+  display: grid;
+  margin: 1%;
+  height: 65%;
+  width: 25%;
+  border-radius: 25%;
+  border-right: solid 5px grey;
+  border-bottom: solid 5px grey;
+}
+
+.aa {
+  color: white;
+  text-indent: 10%;
+}
+
+.a {
+  color: white;
+  text-indent: 10%;
+}
+
+.b {
+  color: white;
+  text-indent: 10%;
+}
+
+.c {
+  color: white;
+  text-indent: 10%;
+}
+
+.d {
+  color: white;
+  text-indent: 10%;
+}
+
+.e {
+  color: white;
+  text-indent: 10%;
+}
