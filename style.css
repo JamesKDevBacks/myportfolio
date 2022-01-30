@@ -87,47 +87,50 @@ button:hover {
   background-color: #464646;
 }
 
-.container2 {
-  display: grid;
-  margin-top: 0;
+.zone {
+    margin-top: 5%;
+    font-size: 2em;
+    text-align: center;
 }
 
-.climber {
-  display: grid;
-  margin: 1%;
-  height: 65%;
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.main-nav {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+a {
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin: 1.5vh;
+  border: solid 1px;
+  padding: 0.5rem;
+  background-color: grey;
+}
+
+.container1 {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.headshot {
+  margin: 5%;
   width: 25%;
-  border-radius: 25%;
-  border-right: solid 5px grey;
-  border-bottom: solid 5px grey;
-}
-
-.aa {
-  color: white;
-  text-indent: 10%;
-}
-
-.a {
-  color: white;
-  text-indent: 10%;
-}
-
-.b {
-  color: white;
-  text-indent: 10%;
-}
-
-.c {
-  color: white;
-  text-indent: 10%;
-}
-
-.d {
-  color: white;
-  text-indent: 10%;
-}
-
-.e {
-  color: white;
-  text-indent: 10%;
+  border-radius: 50%;
 }
