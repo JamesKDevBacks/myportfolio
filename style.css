@@ -113,7 +113,7 @@ button:hover {
   margin: 0;
 }
 
-a {
+.link {
   justify-content: center;
   color: white;
   text-decoration: none;
