@@ -75,7 +75,7 @@ button:hover {
 /* start of the home.html */
 /* background image */
 .home {
-  background-image: url(./img/black.jpg);
+  background-image: url(./img/vacay.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -88,7 +88,7 @@ button:hover {
 }
 
 .zone {
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 2em;
     text-align: center;
 }
@@ -98,13 +98,6 @@ button:hover {
         font-size: 0.5em;
         padding: 0;
     }
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
 }
 
 .main-nav {
@@ -123,14 +116,39 @@ button:hover {
   background-color: grey;
 }
 
+.link:hover {
+  color: grey;
+  background-color: white;
+  -o-transition: 1s;
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  transition: ease-out 1s;
+  box-shadow: inset 0px 100px 0px 0px white;
+}
+
 .container1 {
-  margin-top: 10%;
-  display: flex;
+  margin-top: 9%;
+  display: block;
+}
+
+h2 {
+  display: inline-block;
   justify-content: center;
+  margin: 15% 0 0 0;
+  color: white;
+  border: 1px solid white;
 }
 
 .headshot {
-  margin: 5%;
-  width: 25%;
+  margin: 0 5% 0 0;
+  width: 10rem;
   border-radius: 50%;
+  float: left;
+}
+
+p {
+  color: white;
+  width: 65%;
+  margin: auto;
+  padding-top: 5%;
 }
